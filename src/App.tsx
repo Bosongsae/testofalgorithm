@@ -25,7 +25,7 @@ const App = () => {
   const usernamessolved = ["potatooftaebaek", "covertnest", "zer0ken", "thdud4231", "trivialcoding6", "csh9895", "khuho777", "kairosial", "seesong", "dev_k", "jl92", "weg1456", "rin0742", "", "lehejo0330", "bchaeeun9", "kristyn00", "yongsuk204", "akrsoek0971", "hongwon1031"]
   return (    
     <div style={{ display: "flex" }}>      
-      <div id="github" style={{ width : "50%" }}>
+      <div id="github" style={{ width : "420px", marginLeft: "40px" }}>
       {usernames.map((username) => (
         <div key={username} style={{ marginBottom: "30px", height : "220px"  }}>
           <h4>{username}'s GitHub Contributions</h4>
@@ -33,7 +33,7 @@ const App = () => {
         </div>
       ))}
       </div>
-      <div id="solved" style={{ width : "50%"}}>
+      <div id="solved" style={{ width : "420px"}}>
       {usernamessolved.map((username) => (
         <div key={username} style={{ marginBottom: "30px", height : "220px" }}>
           <h4>{username}'s Solved.ac Streak</h4>
