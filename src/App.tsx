@@ -24,8 +24,7 @@ const App = () => {
   const usernames = ["GideokKim", "Bosongsae", "zer0ken", "Yoonsoyoung02", "trivialcoding6", "ChooSeongho", "codingorijazz","kairosial", "Ju-hong", "suyeon0702", "wnsdlfrns", "weg-9000", "serin826", "jiiiiiiiy", "YiHeeJu", "chaeengg", "Kristyn-Yoon", "yongsuk204", "Ryan-OH", "hongwon1031" ];
   const usernamessolved = ["potatooftaebaek", "covertnest", "zer0ken", "thdud4231", "trivialcoding6", "csh9895", "khuho777", "kairosial", "seesong", "dev_k", "jl92", "weg1456", "rin0742", "", "lehejo0330", "bchaeeun9", "kristyn00", "yongsuk204", "akrsoek0971", "hongwon1031"]
   return (    
-    <div style={{ display: "flex" }}>
-      <h1 style={{width : "100%"}}>Algorithm Study</h1>
+    <div style={{ display: "flex" }}>      
       <div id="github" style={{ width : "50%" }}>
       {usernames.map((username) => (
         <div key={username} style={{ marginBottom: "30px", height : "220px"  }}>
