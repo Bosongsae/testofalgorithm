@@ -28,7 +28,7 @@ const App = () => {
       <div id="github" style={{ width : "420px", marginLeft: "40px" }}>
       {usernames.map((username) => (
         <div key={username} style={{ marginBottom: "30px", height : "220px"  }}>
-          <h4>{username}'s GitHub Contributions</h4>
+          <h4>{username}'s GitHub Contributions </h4>
           <GitHubCalendar username={username} transformData={selectLastHalfYear} blockSize={10} />
         </div>
       ))}
